@@ -1,0 +1,144 @@
+
+
+.bacJst{
+    height: 180px; 
+    background-color: rgb(0, 195, 255); 
+}
+
+  
+.flightSearch{
+    width: 100%;
+    display: flex; 
+    flex-direction: column; 
+    font-size: 13px; 
+    width: 1200px;
+    padding: 20px; 
+    margin: 20px auto;
+    margin-top: -90px; 
+    border-radius: 10px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 13px -9px rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 0px 13px -9px rgba(0, 0, 0, 0.9);
+  
+}
+.flightSearchTop{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(59, 58, 58);
+    margin-bottom: 20px;
+    display: flex;
+
+}
+
+.titTp{
+    margin-left: 20px;
+}
+
+.flightSearchBott{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.fsec{ 
+    width: 100%;
+ 
+    align-items: center;
+
+}
+
+.impTit{
+    border: none;
+    outline: none;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+
+ 
+
+.impDat{
+    border: none;
+    outline: none;
+    height: 30px;
+    border-bottom: 1px solid gray;
+    font-family: 'Fredoka', sans-serif;
+
+}
+.tit{
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+
+
+.flightCont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    max-width: 1000px;
+    margin: auto;
+    font-size: 13px;
+
+}
+
+.selTit{
+    border: none;
+}
+
+
+.singleFlight{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(212, 212, 212);
+    border-radius: 14px;
+    margin: 5px 0;
+    color: rgb(48, 47, 47);
+}
+
+.sec1{
+    min-width: 50px;
+padding: 20px;
+}
+
+.flightTitle{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.moreLink{
+    color: rgb(0, 195, 255);
+}
+
+.hint{
+    color: gray;
+}
+
+.timeS{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.placeH{
+    color: rgb(83, 83, 83);
+}
+
+.arrives{
+    max-width: 70px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.price{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.bookNow{
+    font-size: 18px;
+    color: rgb(0, 195, 255);
+}
