@@ -1,0 +1,413 @@
+<html>
+  <head>
+    <meta charset="URF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>airlines</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./flightList.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo"><h2 class="titLg">New Way</h2>
+          </div>
+          <nav>
+            <ul id="menuItems">
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">Book</a>
+              </li>
+              <li>
+                <a href="">About</a>
+              </li>
+              <li>
+                <a href="">Contact</a>
+              </li>
+              <li>
+                <a href="">Account</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- <img src="images/cart.png" alt="" width="30px" height="30px" /> -->
+          <img src="images/menu.png" class="menuIcon" onclick="menuToggle()" />
+        </div>
+      </div>
+    </div>
+<div class="bacJst"></div>
+    <div class="flightSearch">
+    <div class="flightSearchTop">
+      <img src="https://drg5ie3bz46tr.cloudfront.net/travel/rtravel/assets/b2411b61.svg" class="smlIcn"  />
+      <div class="titTp">
+      Book Flight Tickets</div>
+    </div>
+    <div class="flightSearchBott">
+      <div class="fsec">
+        <div class="tit">From</div>
+        <input type="text" class="impTit">
+      </div>
+
+      <div class="fsec">
+        <div class="tit">To</div>
+        <input type="text" class="impTit">
+      </div>
+
+      <div class="fsec">
+        <div class="tit">Departure Date</div>
+        <input type="date" class="impDat" placeholder="">
+      </div>
+
+      <div class="fsec">
+        <div class="tit">Travellers Count</div>
+        <input type="text" class="impTit">
+      </div>
+
+      <div class="fsec">
+        <div class="tit">Travellers Count</div>
+        <select name="" id="" class="selTit">
+          <option value="">Economy</option>
+          <option value="">Premium Economy</option>
+          <option value="">Bussiness Class</option>
+        </select>
+      </div> 
+    </div>
+    </div>
+
+    <div class="flightCont">
+      <div class="singleFlight">
+        <div class="sec1">
+          <img src="https://s3-us-west-2.amazonaws.com/paytm-travel/travel_db/flights/airlines+logo/6E.png" alt="">
+        </div>
+        <div class="sec1">
+          <div class='flightTitle'>Indi Go</div>
+          <div class="moreLink">Flight Details</div>
+        </div>
+        <div class="sec1">
+          <div class="hint">6E - 2131</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">21:25</div>
+          <div class="placeH">Delhi</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">00:13</div>
+          <div class="placeH">Bengaluru</div>
+        </div>
+        <div class="sec1">
+          <div class="arrives">arrives next day</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">2h 55m</div>
+          <div class="placeH">Non Stop</div>
+        </div>
+        <div class="sec1">
+          <div class="price">₹ 8,160</div>
+        </div>
+        <div class="sec1">
+          <div class="bookNow"> Book Now </div>
+        </div>
+      </div>
+      <div class="singleFlight">
+        <div class="sec1">
+          <img src="https://s3-us-west-2.amazonaws.com/paytm-travel/travel_db/flights/airlines+logo/6E.png" alt="">
+        </div>
+        <div class="sec1">
+          <div class='flightTitle'>Indi Go</div>
+          <div class="moreLink">Flight Details</div>
+        </div>
+        <div class="sec1">
+          <div class="hint">6E - 2131</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">21:25</div>
+          <div class="placeH">Delhi</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">00:13</div>
+          <div class="placeH">Bengaluru</div>
+        </div>
+        <div class="sec1">
+          <div class="arrives">arrives next day</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">2h 55m</div>
+          <div class="placeH">Non Stop</div>
+        </div>
+        <div class="sec1">
+          <div class="price">₹ 8,160</div>
+        </div>
+        <div class="sec1">
+          <div class="bookNow"> Book Now </div>
+        </div>
+      </div>
+
+      <!-- single Flight -->
+      <div class="singleFlight">
+        <div class="sec1">
+          <img src="https://s3-us-west-2.amazonaws.com/paytm-travel/travel_db/flights/airlines+logo/6E.png" alt="">
+        </div>
+        <div class="sec1">
+          <div class='flightTitle'>Indi Go</div>
+          <div class="moreLink">Flight Details</div>
+        </div>
+        <div class="sec1">
+          <div class="hint">6E - 2131</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">21:25</div>
+          <div class="placeH">Delhi</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">00:13</div>
+          <div class="placeH">Bengaluru</div>
+        </div>
+        <div class="sec1">
+          <div class="arrives">arrives next day</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">2h 55m</div>
+          <div class="placeH">Non Stop</div>
+        </div>
+        <div class="sec1">
+          <div class="price">₹ 8,160</div>
+        </div>
+        <div class="sec1">
+          <div class="bookNow"> Book Now </div>
+        </div>
+      </div>
+
+      <!-- single Flight -->
+      <div class="singleFlight">
+        <div class="sec1">
+          <img src="https://s3-us-west-2.amazonaws.com/paytm-travel/travel_db/flights/airlines+logo/6E.png" alt="">
+        </div>
+        <div class="sec1">
+          <div class='flightTitle'>Indi Go</div>
+          <div class="moreLink">Flight Details</div>
+        </div>
+        <div class="sec1">
+          <div class="hint">6E - 2131</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">21:25</div>
+          <div class="placeH">Delhi</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">00:13</div>
+          <div class="placeH">Bengaluru</div>
+        </div>
+        <div class="sec1">
+          <div class="arrives">arrives next day</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">2h 55m</div>
+          <div class="placeH">Non Stop</div>
+        </div>
+        <div class="sec1">
+          <div class="price">₹ 8,160</div>
+        </div>
+        <div class="sec1">
+          <div class="bookNow"> Book Now </div>
+        </div>
+      </div>
+
+      <!-- single Flight -->
+      <div class="singleFlight">
+        <div class="sec1">
+          <img src="https://s3-us-west-2.amazonaws.com/paytm-travel/travel_db/flights/airlines+logo/6E.png" alt="">
+        </div>
+        <div class="sec1">
+          <div class='flightTitle'>Indi Go</div>
+          <div class="moreLink">Flight Details</div>
+        </div>
+        <div class="sec1">
+          <div class="hint">6E - 2131</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">21:25</div>
+          <div class="placeH">Delhi</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">00:13</div>
+          <div class="placeH">Bengaluru</div>
+        </div>
+        <div class="sec1">
+          <div class="arrives">arrives next day</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">2h 55m</div>
+          <div class="placeH">Non Stop</div>
+        </div>
+        <div class="sec1">
+          <div class="price">₹ 8,160</div>
+        </div>
+        <div class="sec1">
+          <div class="bookNow"> Book Now </div>
+        </div>
+      </div>
+
+      <!-- single Flight -->
+      <div class="singleFlight">
+        <div class="sec1">
+          <img src="https://s3-us-west-2.amazonaws.com/paytm-travel/travel_db/flights/airlines+logo/6E.png" alt="">
+        </div>
+        <div class="sec1">
+          <div class='flightTitle'>Indi Go</div>
+          <div class="moreLink">Flight Details</div>
+        </div>
+        <div class="sec1">
+          <div class="hint">6E - 2131</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">21:25</div>
+          <div class="placeH">Delhi</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">00:13</div>
+          <div class="placeH">Bengaluru</div>
+        </div>
+        <div class="sec1">
+          <div class="arrives">arrives next day</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">2h 55m</div>
+          <div class="placeH">Non Stop</div>
+        </div>
+        <div class="sec1">
+          <div class="price">₹ 8,160</div>
+        </div>
+        <div class="sec1">
+          <div class="bookNow"> Book Now </div>
+        </div>
+      </div>
+
+      <!-- single Flight -->
+      <div class="singleFlight">
+        <div class="sec1">
+          <img src="https://s3-us-west-2.amazonaws.com/paytm-travel/travel_db/flights/airlines+logo/6E.png" alt="">
+        </div>
+        <div class="sec1">
+          <div class='flightTitle'>Indi Go</div>
+          <div class="moreLink">Flight Details</div>
+        </div>
+        <div class="sec1">
+          <div class="hint">6E - 2131</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">21:25</div>
+          <div class="placeH">Delhi</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">00:13</div>
+          <div class="placeH">Bengaluru</div>
+        </div>
+        <div class="sec1">
+          <div class="arrives">arrives next day</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">2h 55m</div>
+          <div class="placeH">Non Stop</div>
+        </div>
+        <div class="sec1">
+          <div class="price">₹ 8,160</div>
+        </div>
+        <div class="sec1">
+          <div class="bookNow"> Book Now </div>
+        </div>
+      </div>
+
+      <div class="singleFlight">
+        <div class="sec1">
+          <img src="https://s3-us-west-2.amazonaws.com/paytm-travel/travel_db/flights/airlines+logo/6E.png" alt="">
+        </div>
+        <div class="sec1">
+          <div class='flightTitle'>Indi Go</div>
+          <div class="moreLink">Flight Details</div>
+        </div>
+        <div class="sec1">
+          <div class="hint">6E - 2131</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">21:25</div>
+          <div class="placeH">Delhi</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">00:13</div>
+          <div class="placeH">Bengaluru</div>
+        </div>
+        <div class="sec1">
+          <div class="arrives">arrives next day</div>
+        </div>
+        <div class="sec1">
+          <div class="timeS">2h 55m</div>
+          <div class="placeH">Non Stop</div>
+        </div>
+        <div class="sec1">
+          <div class="price">₹ 8,160</div>
+        </div>
+        <div class="sec1">
+          <div class="bookNow"> Book Now </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------- footer ----------- -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our app</h3>
+            <p>Download App for Android and ios mobile phone.</p>
+            <div class="appLogo">
+              <img src="images/play-store.png" alt="">
+              <img src="images/app-store.png" alt="">
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo4.png" alt="" />
+            <p> Our Purpose Is To Sustainably Make the pleasure and Benefits of Sports Accessible to the Many. </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <p class="copyRight"> Copyright 2020 - Just Airlines</p>
+    </div>
+    <!-- --------- js for toggle menu ------------- -->
+    <script>
+      var menuItems = document.getElementById("menuItems");
+      menuItems.style.maxHeight = "0px";
+
+      function menuToggle() {
+        if (menuItems.style.maxHeight === "0px") {
+          menuItems.style.maxHeight = "200px";
+        } else {
+          menuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
+<!-- Give Your Workout A New Style! 
