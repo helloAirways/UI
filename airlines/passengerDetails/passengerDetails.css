@@ -1,0 +1,157 @@
+.bdyCont{
+    padding: 90px;
+    padding-top: 50px;
+    margin-right: 450px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    margin-top: 20px;   
+    border: 2px solid rgb(199, 197, 197);
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 13px -9px rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 0px 13px -9px rgba(0, 0, 0, 0.9);
+    
+}
+
+.cirTop{
+    position: absolute;
+    right: 0;
+    margin-top: -70px;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(174, 236, 255) ;
+    z-index: -1;
+    border-bottom-left-radius: 500px;
+}
+.sec1{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 3px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+h2{
+    font-size: 19px;
+    font-weight: 600;
+}
+.titSec1{
+    background-color: rgb(218, 216, 216); 
+    padding: 20px;
+}
+
+.topColSec1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-top: 5px;  
+}
+
+
+.topTitMain{
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    border-bottom: 3px solid  rgb(22, 185, 235);
+}
+ 
+.hintTit{
+    font-size: 13px;
+}
+.botSec1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.blk{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+.topSec1{
+    display: flex; 
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.topSec2{
+    display: flex; 
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.addBtn{
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid  rgb(174, 236, 255); 
+    cursor: pointer;
+    background-color: rgb(174, 236, 255); 
+    border-radius: 13px;
+    margin-left: 10px;
+}
+
+.botTab{
+    padding: 20px;
+}
+
+td {
+    padding: 0 15px;
+    text-align: center;
+    padding-bottom: 13px;
+  }
+
+.delBtn{
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+}
+
+input{
+    height: 30px;
+    width: 150px;
+}
+
+.gendDrp{
+    height: 30px;
+    width: 150px;
+font-size: 11px;
+border: 1px solid rgb(146, 145, 145);
+}
+
+
+
+.phoneInp{
+    margin: 15px 0 10px 20px;  
+    width: 300px;
+}
+
+.classSel{
+    margin-left: 20px;
+    height: 30px;
+    width: 150px;
+font-size: 11px;
+border: 1px solid rgb(146, 145, 145);
+}
+
+.botBtns{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.btnN{
+    width: 220px;
+    height: 45px;
+    background-color:  rgb(20, 192, 245);
+    border: none;
+    color: white;
+    font-size: 19px;
+    border-radius: 45px;
+}
